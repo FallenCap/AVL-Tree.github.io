@@ -122,6 +122,9 @@ body {
 /* Media Responsive CSS */
 
 @media (max-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
   .heading {
     font-size: 3.8rem;
   }
@@ -134,9 +137,16 @@ body {
   .heading1 {
     font-size: 2.8rem;
   }
+  canvas {
+    height: 700px;
+    width: 940px;
+  }
 }
 
 @media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
   .heading {
     font-size: 3.2rem;
   }
@@ -160,9 +170,16 @@ body {
     font-size: 0.8rem;
     padding: 0.4rem 1.8rem;
   }
+  canvas {
+    height: 600px;
+    width: 700px;
+  }
 }
 
 @media (max-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
   .heading {
     font-size: 3rem;
   }
@@ -189,6 +206,17 @@ body {
   .margin-t2 {
     margin-top: 10rem;
   }
+  canvas {
+    height: 500px;
+    width: 520px;
+  }
 }
 @media (max-width: 360px) {
+  .container {
+    max-width: 320px;
+  }
+  canvas {
+    height: 600px;
+    width: 520px;
+  }
 }
